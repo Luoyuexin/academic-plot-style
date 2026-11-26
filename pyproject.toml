@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "academic-plot-style"
+version = "1.0.0"
+description = "Journal-ready matplotlib styling toolkit: academic fonts, colorblind-safe palettes, significance annotations, PNG+PDF export."
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{ name = "Luoyuexin" }]
+dependencies = ["matplotlib>=3.5"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Visualization",
+]
+
+[tool.setuptools]
+py-modules = ["academic_style"]
