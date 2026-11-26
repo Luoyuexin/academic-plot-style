@@ -63,4 +63,4 @@ python examples/demo.py
 
 ## License
 
-_(待补充 / to be added by the author)_
+MIT
